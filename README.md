@@ -4,7 +4,8 @@
 [![Documentation](https://docs.rs/vl53l4cd-ulp/badge.svg)](https://docs.rs/vl53l4cd-ulp)
 [![License](https://img.shields.io/badge/license-MIT%2FApache--2.0-blue.svg)](README.md)
 
-An ultra-low-power Rust driver for the VL53L4CD time-of-flight distance sensor. This crate provides an async, `no_std` driver that integrates with the `embedded-hal-async` ecosystem.
+An ultra-low-power Rust driver for the VL53L4CD time-of-flight distance sensor. This `no_std`
+crate provides both sync and async  variants that integrates with the `embedded-hal` ecosystem.
 
 ## Getting Started
 
