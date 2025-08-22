@@ -1,7 +1,7 @@
 //! # VL53L4CD Ultra-Low-Power Time-of-Flight Distance Sensor Driver
 //!
-//! This crate provides an async, `no_std` driver for ST-Microelectronics' VL53L4CD ultra-low-power
-//! time-of-flight distance sensor.
+//! This crate provides a `no_std` driver for ST-Microelectronics' VL53L4CD ultra-low-power
+//! time-of-flight distance sensor in both sync and async variants.
 //!
 //! ## Basic Usage
 //!
