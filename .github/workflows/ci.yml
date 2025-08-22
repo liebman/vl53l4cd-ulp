@@ -21,6 +21,9 @@ jobs:
           - ""  # No features
           - "defmt"
           - "log"
+          - "async"
+          - "async,defmt"
+          - "async,log"
     steps:
       - uses: actions/checkout@v4
       
@@ -65,7 +68,7 @@ jobs:
         uses: Swatinem/rust-cache@v2
       
       - name: Run tests
-        run: cargo test --verbose"
+        run: cargo test --verbose
       
   # Formatting check
   fmt:
