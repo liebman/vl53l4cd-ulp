@@ -13,7 +13,7 @@ Add the dependency to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-vl53l4cd-ulp = "0.1.0"
+vl53l4cd-ulp = "0.1.1"
 ```
 
 ### Basic Usage
