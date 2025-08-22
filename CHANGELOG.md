@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased] - ReleaseDate
 
+## [0.1.0] - 2025-08-22
+
 * initial version
 
 <!-- next-url -->
+[Unreleased]: https://github.com/liebman/vl53l4cd-ulp/compare/v0.1.0...HEAD
