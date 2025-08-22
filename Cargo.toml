@@ -1,0 +1,29 @@
+[package]
+name = "vl53l4cd-ulp"
+description = "no_std ultra-low-powerdriver for the VL53L4CD"
+repository = "https://github.com/liebman/vl53l4cd-ulp"
+documentation = "https://docs.rs/vl53l4cd-ulp"
+keywords = ["VL53L4CD", "embedded", "embedded-hal", "no-std"]
+categories = ["embedded", "hardware-support", "no-std"]
+version = "0.0.0"
+edition = "2024"
+readme = "README.md"
+authors = ["liebman <liebman@zod.com>"]
+license = "MIT OR Apache-2.0"
+rust-version = "1.88"
+
+[dependencies]
+cfg-if = "1.0.3"
+defmt = { version = "1.0.1", optional = true }
+embedded-hal = "1.0.0"
+embedded-hal-async = "1.0.0"
+log = { version = "0.4", optional = true }
+maybe-async-cfg = "0.2.5"
+
+[features]
+async = []
+defmt = ["dep:defmt"]
+log = ["dep:log"]
+
+[dev-dependencies]
+embedded-hal-mock = { version = "0.11.1", features = ["embedded-hal-async"] }
