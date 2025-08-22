@@ -1040,7 +1040,7 @@ where
     /// sensor.sensor_init().unwrap();
     /// // Set ROI to 4x4 for minimum power consumption (may reduce max range by up to 50%)
     /// sensor.set_roi(4).unwrap();
-    /// 
+    ///
     /// // Or set to 8x8 for balanced power and range performance
     /// sensor.set_roi(8).unwrap();
     /// ```
